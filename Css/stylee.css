@@ -1,0 +1,89 @@
+.navbar-brand{
+    font-family: cursive;
+ font-size: 10em;
+font-style: italic;
+font-weight: bold;
+padding-left: 20%;
+width: 100%;
+margin-left: 10%;
+}
+.custom-nav-item:hover{
+background-color: tomato;
+border: solid tomato 1px;
+border-radius: 10px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul{
+margin-left: 20%;
+}
+.navbar-text{
+    margin-left: 5%;
+}
+.image-marg{
+    margin: 0px;
+    padding: 0px;
+}
+.image{
+    position: relative;
+}
+.sty_img{
+    width: 100%;
+    height: max-content;
+}
+.img-overlay{
+position: absolute;
+top: 0;
+left: 0;
+height: max-content;
+width: 100%;
+background-color: rgb(255, 68, 0);
+z-index: 1;
+opacity: 0.5;
+}
+.img-content{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    top: 350px;
+    left: 350px;
+    right: 350px;
+    text-align: center;
+    }
+    .bottom-banner{
+        color: white;
+        padding: 10px;
+    }
+    #d{
+        display: inline-block;
+    }
+    .card{
+        margin-left: 10px;
+    }
+    .card-deck{
+        width: 50%;
+      
+    }
+    #image_1{
+        height: 200px;
+   }
+
+ .stripe{
+     background-color: orangered;
+     text-decoration: white;
+   border-radius: 20px;
+   height: min-content;
+   padding: 10Px;
+   margin-top: 4rem;
+   transform: rotate(5deg);
+   z-index: -5;
+ }
+  @media screen and (min-width:0px) and (max-width:700px){
+        .contenu, .txt-banner,.stripe 
+        {
+            display: none;
+        }
+        .img-content{
+            top: 12%;
+            left: 60%;
+        }
+    }
